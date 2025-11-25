@@ -25,7 +25,7 @@ Finalmente, cuando i alcanza el final de la lista (n), el algoritmo ha terminado
 if i >= n:
         return {"a": None, "b": None, "swap": False, "done": True}
 ```
-
+---
 # Problemas ocurridos:
 1. Error lógico en la fase de inserción. No se definió j=None al finalizar la inserción de un elemento, lo que causaba que el algoritmo no avanzara correctamente al siguiente elemento. Se corrigió agregando j = None después de completar la inserción.
 2. Error en la condición de finalización. La condición if i >= n: estaba mal ubicada dentro del bloque de inserción, lo que impedía que el algoritmo reconociera correctamente cuando había terminado de ordenar toda la lista. Se corrigió moviendo esta condición al inicio de la función step().
