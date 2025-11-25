@@ -1,4 +1,4 @@
-# Contrato: init(vals), step() -> {"a": int, "b": int, "swap": bool, "done": bool}
+# Selection Sort By Thiago Ravelo
 
 items = []
 n = 0
